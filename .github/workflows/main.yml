@@ -34,5 +34,5 @@ jobs:
 
     - name: Build and push Docker image
     run: |          
-    docker build -t <dockerhubaccountname>/<repository>:latest .          
-    docker push <dockerhubaccountname>/<repository>:late
+    docker build -t tomvbenthem/publiccloudconcepts:latest .          
+    docker push tomvbenthem/publiccloudconcepts:late
