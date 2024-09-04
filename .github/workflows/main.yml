@@ -35,5 +35,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build and push Docker image
         run: |
-         docker build -t tomvbenthem/publiccloudconcepts:latest
+         docker build -t tomvbenthem/publiccloudconcepts:latest .
          docker push tomvbenthem/publiccloudconcepts:latest
